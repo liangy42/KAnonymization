@@ -183,6 +183,7 @@ def AnonymizeBySubLpGurobi(arrData, arrHeaders,arrVarType, v_dict, y_dict, z_dic
         for z_var in z_row:
             z_var.start = z_dict[z_var.varName]
     m.Params.MIPFocus = 2
+    # m.Params.TimeLimit = 1000 #uncomment for early termination
     m.optimize()
 
     #print output
