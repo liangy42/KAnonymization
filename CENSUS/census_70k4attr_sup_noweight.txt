@@ -1,0 +1,5 @@
+SEX,AGE,MARST,RACE
+Integer,Integer,Integer,Integer
+1,16,1,1
+2,90,6,7
+1,1,1,1
